@@ -1,0 +1,4 @@
+> mkdir
+
+$ exists src/main/scala/tech/magnolia
+$ exists src/test/scala/tech/magnolia
