@@ -7,6 +7,8 @@ import Def.Initialize
 import java.nio.file.{Files, Paths}
 
 object DevPlugin extends AutoPlugin {
+  override def trigger = allRequirements
+
   object autoImport {
     lazy val mkdir      = taskKey[Unit]("make directories")
     lazy val mkreadme   = taskKey[Unit]("make README file")
